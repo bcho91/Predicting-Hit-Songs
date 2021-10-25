@@ -38,7 +38,7 @@ The selection of songs were critical, I wanted to select a sample size that incl
 
 Data cleaning was very minimal since I scraped the song data from Spotify. The biggest concern were duplicate songs from the playlists I scraped. Ultimately, after the cleaning process, I had a dataset of about 12,000 songs. Approximately 10,800 songs were non-hits and 975 songs were hits. Less than 9% of songs were labelled as hits which leads to a major imbalance of classes.
 
-In order to address the problem of class imbalance, I utilized the synthetic minority oversampling tehcnique method (SMOTE). This allowed me to balance the classes to a near 50/50 split. Once this was complete, I was ready to train my models. A random seed was set so that I was able to compare my models.
+In order to address the problem of class imbalance, I utilized the synthetic minority oversampling technique method (SMOTE). This allowed me to balance the classes to a near 50/50 split. Once this was complete, I was ready to train my models. A random seed was set so that I was able to compare my models.
 
 ## Evaluations
 |Model|Accuracy|Precision|Recall|F1 Score|
